@@ -12,7 +12,6 @@ export function getFormProgress(
 
   const total = getRotalWeightScore(fieldWeights);
   const current = getCurrentWeightScore(formData, fieldWeights);
-  console.log(current);
 
   return (current / total) * 100;
 }
